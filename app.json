@@ -2,7 +2,7 @@
   "expo": {
     "name": "PicFlick",
     "slug": "PicFlick",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -20,7 +20,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.manish.picflick",
-      "versionCode": 1,
+      "versionCode": 2,
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.READ_EXTERNAL_STORAGE",
@@ -33,6 +33,11 @@
     },
     "plugins": [
       "expo-asset"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "27d83d65-7562-4637-b292-3a5fed86dcb8"
+      }
+    }
   }
 }
